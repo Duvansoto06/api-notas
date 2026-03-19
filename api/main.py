@@ -21,6 +21,6 @@ def predict_sales(data: CalificacionInput):
 
     result = predict(data.calificacion)
     return {
-        "Calificacion": data.calificacion,
-        "Horas Estudiadas": result
+        "Horas Estudiadas": data.calificacion,
+        "calificacion": result
     }
